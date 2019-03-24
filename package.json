@@ -13,8 +13,10 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
+    "heroku": "^7.22.7",
     "knex": "^0.16.3",
     "nodemailer": "^5.1.1",
+    "npm": "^6.9.0",
     "pg": "^7.9.0"
   },
   "devDependencies": {}
