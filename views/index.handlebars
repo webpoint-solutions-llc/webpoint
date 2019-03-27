@@ -299,7 +299,7 @@
             <section class="pricing section">
                 <div class="container">
                     <div class="pricing-inner section-inner">
-                        <h2 class="section-title mt-0 text-center">Let's Get In Touch</h2>
+                        <h2 class="section-title mt-0 text-center">Tell us about your project<img id="plane" src="/public/images/paper_plane.png" alt="" width="75"></h2>
 						<div>
 							<div class="pricing-tables-wrap">
 								 <!-- THIS PART HAS PRICING OPTIONS,WHICH IS HIDDEN FOR FUTURE PURPOSE-->
@@ -361,24 +361,24 @@
 								<div class="form-background form-group">
 									  <form method="post" action="formsubmit" id="contact" name="contact" 
 									  onsubmit="alert('Form has been submitted successfully.')">
-										    <label for="name">Name</label>
+										    {{!-- <label for="name">Name</label> --}}
 										    <input class="form-background"
-										    type="text" id="name" name="name" placeholder="Your name.." Required>
+										    type="text" id="name" name="name" placeholder="YOUR NAME" Required>
 
-										    <label for="email">Email</label>
+										    {{!-- <label for="email">Email</label> --}}
 										    <input class="form-background"
 											type="email" id="email" name="email" 
-											placeholder="Your last name.." 
+											placeholder="EMAIL" 
 											pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$"
 											Required>
 
-										    <label for="company">Company</label>
+										    {{!-- <label for="company">Company</label> --}}
 										    <input class="form-background"
-										    type="text" id="company" name="company" placeholder="Your company name" Required>
+										    type="text" id="company" name="company" placeholder="COMPANY NAME" Required>
 
-										    <label for="Description">Project Description:</label>
+										    {{!-- <label for="Description">Project Description:</label> --}}
 										    <textarea class="form-background"
-										    rows="4" cols="30" name="message" placeholder="Your Project Description" Required></textarea>
+										    rows="4" cols="30" name="message" placeholder="PROJECT DESCRIPTION" Required></textarea>
 										  
 										    <input class="form-btn-submit"
 										    type="submit" value="Submit">
@@ -448,7 +448,7 @@
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
                         <a href="#">
-                            <img src="public/images/logo.png" alt="logo" width="70" height="70">
+                            {{!-- <img src="public/images/logo.png" alt="logo" width="70" height="70"> --}}
                         </a>
                     </div>
                     <ul class="footer-links list-reset">
