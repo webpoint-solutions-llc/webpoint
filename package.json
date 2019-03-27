@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2",
     "heroku": "^7.22.7",

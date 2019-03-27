@@ -1,4 +1,5 @@
 const express = require('express');
+const compression = require('compression');
 const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const path = require('path');
@@ -16,6 +17,8 @@ const db = knex({
 
 
 const app = express();
+
+app.use(compression());
 
 //BODY PARSER MIDDLEWARE
 app.use(bodyParser.urlencoded({ extended: false }))
